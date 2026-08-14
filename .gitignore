@@ -1,0 +1,11 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+
+# Internal working notes — not for the public repo
+TODO.md
+CLEANUP.md
