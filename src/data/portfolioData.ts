@@ -213,13 +213,13 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     },
     icon: 'Code2',
     description: {
-      en: 'Fast, reliable interfaces built with lightweight, compilation-free libraries.',
-      sr: 'Brzi i pouzdani interfejsi izgrađeni lakim bibliotekama bez kompajliranja.',
+      en: 'Fast, reliable interfaces — lightweight where a build step would only add weight, component-driven where it pays off.',
+      sr: 'Brzi i pouzdani interfejsi — laki tamo gdje bi build korak samo dodao težinu, komponentni tamo gdje se to isplati.',
     },
     skills: [
       { name: 'Alpine.js & Plain JavaScript (ES6+)', level: 98, highlight: 'Zero compile overhead' },
       { name: 'HTML5, CSS3 & Tailwind CSS', level: 96, highlight: 'Clean semantic markup' },
-      { name: 'React.js', level: 90, highlight: 'Components & state' },
+      { name: 'React.js & TypeScript', level: 90, highlight: 'Components & state' },
       { name: 'HTMX', level: 85, highlight: 'Hypermedia-driven UI' },
       { name: 'SCSS, jQuery & Bootstrap', level: 88, highlight: 'Legacy maintenance' },
     ],

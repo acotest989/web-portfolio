@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ArrowRight, Terminal, Sparkles, Zap, CheckCircle2, Copy, Check, Shield, Cpu, Code } from 'lucide-react';
+import { ArrowRight, Terminal, Sparkles, Zap, CheckCircle2, Copy, Check, Shield, Cpu, Code, Atom } from 'lucide-react';
 import { PERSONAL_INFO } from '../data/portfolioData';
 import { Language } from '../types';
 
@@ -144,6 +144,10 @@ export const Hero: React.FC<HeroProps> = ({
               <div className="flex items-center gap-1.5 px-3 py-1 rounded-md bg-[#111111] border border-[#262626]">
                 <Zap className="w-3.5 h-3.5 text-[#c5a059]" />
                 <span>Alpine.js & Vanilla JS</span>
+              </div>
+              <div className="flex items-center gap-1.5 px-3 py-1 rounded-md bg-[#111111] border border-[#262626]">
+                <Atom className="w-3.5 h-3.5 text-sky-400" />
+                <span>React & TypeScript</span>
               </div>
               <div className="flex items-center gap-1.5 px-3 py-1 rounded-md bg-[#111111] border border-[#262626]">
                 <Shield className="w-3.5 h-3.5 text-emerald-400" />

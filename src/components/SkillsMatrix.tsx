@@ -145,13 +145,13 @@ export const SkillsMatrix: React.FC<SkillsMatrixProps> = ({ lang }) => {
             </div>
             <h3 className="text-xl font-serif font-bold text-[#e5e5e5]">
               {lang === 'en'
-                ? 'High-Performance Web Architecture without Compile-Time Overhead'
-                : 'Web Arhitektura Visokih Performansi Bez Zastoja pri Kompajliranju'}
+                ? 'Performance First, Tooling Chosen Per Layer'
+                : 'Performanse na Prvom Mjestu, Alat Biran po Sloju'}
             </h3>
             <p className="text-xs sm:text-sm text-[#a3a3a3] leading-relaxed font-light">
               {lang === 'en'
-                ? 'By combining lightweight reactive libraries like Alpine.js and Vanilla JS with compiled Go services and Flutter cross-platform apps, projects stay fast, simple to onboard onto, and focused on Core Web Vitals.'
-                : 'Kombinovanjem lakih reaktivnih biblioteka poput Alpine.js-a i Vanilla JS-a sa Go servisima i Flutter aplikacijama, projekti ostaju brzi, laki za uvođenje novih članova tima i fokusirani na Core Web Vitals.'}
+                ? 'Alpine.js and Vanilla JS where a build pipeline would only add weight, React and TypeScript where component architecture earns its keep. Paired with compiled Go services and Flutter apps, projects stay fast, simple to onboard onto, and focused on Core Web Vitals.'
+                : 'Alpine.js i Vanilla JS tamo gdje bi build pipeline samo dodao težinu, React i TypeScript tamo gdje se komponentna arhitektura isplati. Uz Go servise i Flutter aplikacije, projekti ostaju brzi, laki za uvođenje novih članova tima i fokusirani na Core Web Vitals.'}
             </p>
           </div>
 
